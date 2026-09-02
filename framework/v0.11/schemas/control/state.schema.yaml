@@ -1,0 +1,8 @@
+schema_id: FRAMEWORK_CONTROL_STATE
+schema_version: 0.1
+type: object
+required: [workflow_instance_id, workflow_id, workflow_version, state_revision, current_state_id, current_control_mode, authority_class, status]
+enums:
+  control_mode: [DELIBERATIVE, CONSTRAINED_REASONING, CONTROLLED_EXECUTION]
+  authority_class: [NON_AUTHORITATIVE, CANDIDATE, AUTHORITATIVE, EMISSION_AUTHORIZED]
+  status: [ACTIVE, WAITING_FOR_RESOLUTION, BLOCKED, FAILED, COMPLETED, CANCELLED]

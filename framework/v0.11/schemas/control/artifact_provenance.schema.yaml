@@ -1,0 +1,10 @@
+schema_id: FRAMEWORK_ARTIFACT_PROVENANCE
+schema_version: 0.1
+type: object
+required: [artifact_id, workflow_instance_id, output_contract_id, output_contract_version, authoritative_result_digest, finalization_receipt_id, artifact_digest, artifact_validator_reference, artifact_validation_status, authority_status]
+enums:
+  authority_status: [NON_AUTHORITATIVE, FINALIZED, EMISSION_AUTHORIZED]
+
+properties:
+  artifact_validator_reference: {type: string}
+  artifact_validation_status: {type: string}

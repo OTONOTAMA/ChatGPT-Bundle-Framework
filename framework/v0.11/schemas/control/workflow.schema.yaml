@@ -1,0 +1,35 @@
+schema_id: FRAMEWORK_CONTROL_WORKFLOW
+schema_version: 0.1
+type: object
+required: [workflow_id, workflow_version, initial_state, states, actions, transitions, canonical_input_schema, entry_action, final_authority_condition, output_contract]
+representation:
+  states: mapping_by_state_id
+  actions: mapping_by_action_id
+  transitions: list
+properties:
+  workflow_id: {type: string}
+  workflow_version: {type: string}
+  initial_state: {type: string}
+  canonical_input_schema:
+    type: object
+    required: [id, version]
+  entry_action: {type: string}
+  final_authority_condition: {type: object}
+  output_contract:
+    type: object
+    required: [id, version, artifact_validator_reference]
+  states:
+    type: object
+    additional_properties:
+      type: object
+      required: [control_mode, authority_class, terminal]
+  actions:
+    type: object
+    additional_properties:
+      type: object
+      required: [allowed_control_mode, executor_reference, receipt_required, success_transition]
+  transitions:
+    type: array
+    items:
+      type: object
+      required: [from_state, action_id, to_state]

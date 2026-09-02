@@ -1,0 +1,6 @@
+schema_id: FRAMEWORK_EXECUTION_PERMIT
+schema_version: 0.1
+type: object
+required: [permit_id, workflow_instance_id, action_id, expected_state_revision, canonical_commit_id, input_digest, issued_by_controller, permit_status]
+enums:
+  permit_status: [ISSUED, CONSUMED, INVALIDATED]

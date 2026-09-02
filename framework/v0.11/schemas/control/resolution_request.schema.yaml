@@ -1,0 +1,4 @@
+schema_id: FRAMEWORK_RESOLUTION_REQUEST
+schema_version: 0.1
+type: object
+required: [resolution_request_id, workflow_instance_id, requested_schema_id, required_fields, return_contract]

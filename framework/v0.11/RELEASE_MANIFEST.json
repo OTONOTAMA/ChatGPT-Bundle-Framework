@@ -1,0 +1,124 @@
+{
+  "framework_id": "CHATGPT_BUNDLE_FRAMEWORK",
+  "framework_version": "0.11",
+  "release_id": "0.11",
+  "release_state": "STABLE",
+  "source_working_build": "004",
+  "qualified_release_candidate": "0.1-rc.1",
+  "qualified_release_candidate_zip_sha256": "1844db8d9784c9567a5fdb80b30210dabc6613f1cd69ccb26564bdbf4a67ffd4",
+  "canonical_source": "01_CANONICAL_NORMATIVE_SPECIFICATION.md",
+  "domain_independent": true,
+  "reference_test_count": 34,
+  "reference_test_status": "34/34 PASS",
+  "external_framework_bootstrap_status": "PASS",
+  "external_full_package_clean_room_status": "PASS",
+  "exact_rc_fresh_chat_bootstrap_status": "PASS",
+  "file_count_excluding_manifest": 21,
+  "files": [
+    {
+      "path": "01_CANONICAL_NORMATIVE_SPECIFICATION.md",
+      "size": 27756,
+      "sha256": "362654cc2f8cb2da0a06b11b49e4e577c733a1bbf60e4bcda4154acde70414e8"
+    },
+    {
+      "path": "02_JA_HUMAN_GUIDANCE.md",
+      "size": 12019,
+      "sha256": "32884b57a9c2a7efb8167f8088b3be78d01c55b4891dc94900afe0b3d7903a84"
+    },
+    {
+      "path": "03_IMPLEMENTATION_STATUS.md",
+      "size": 2602,
+      "sha256": "56a763973cb3f9279c1946e9d1213ffb92d9f30ca2234fddb70a7ec0e490694a"
+    },
+    {
+      "path": "04_VALIDATION_EVIDENCE.md",
+      "size": 4196,
+      "sha256": "125b0eb073abaf6c75b67cfcf58c07d7f2ee151f8e552e7c966a483a9a66edee"
+    },
+    {
+      "path": "05_PROMOTION_REVIEW.md",
+      "size": 1548,
+      "sha256": "b81478c514552316e47a5ed834fcb2ae00d6f505ed0ebf3a3fa9d6d2fc1f7e00"
+    },
+    {
+      "path": "06_RELEASE_VALIDATION_RECEIPT.md",
+      "size": 976,
+      "sha256": "3fc51fedafeb9b07a9be9c3608003b4af672603e4dc61e0301262d22ca7550fd"
+    },
+    {
+      "path": "README.md",
+      "size": 1982,
+      "sha256": "200be91a7474bb9571c7e018ab4e5bde4ff206a4b5f4d406be0e99418f536d33"
+    },
+    {
+      "path": "runtime/control/README.md",
+      "size": 1335,
+      "sha256": "781af486dd2a3ce9e15b10ac73d66c5d41e08bdb5df7f5c8cfededee29fb2a6e"
+    },
+    {
+      "path": "runtime/control/__init__.py",
+      "size": 181,
+      "sha256": "23d0dc6c721c4a39875e80c3683a529b9ce5b64d8e4050b613841972e13022f1"
+    },
+    {
+      "path": "runtime/control/provenance.py",
+      "size": 1754,
+      "sha256": "15d972b31fb606fa9e2b0a91d4f7f041c152113ab73231f9e74a1b3ee1d0cda2"
+    },
+    {
+      "path": "runtime/control/state_controller.py",
+      "size": 25938,
+      "sha256": "06d658efd9e71afacd325f1adaafd4915036085c34a8488f22acff1ae28ae39b"
+    },
+    {
+      "path": "schemas/control/artifact_provenance.schema.yaml",
+      "size": 496,
+      "sha256": "558aac5a32b5a6b5db121f450bc4e4dae9ce2c2f93bde691b37bb48fdcb16024"
+    },
+    {
+      "path": "schemas/control/canonical_commit.schema.yaml",
+      "size": 264,
+      "sha256": "caba91e68395bb529d34c2ef62a21de187105d857b7ec58ca3ad348e90b29c13"
+    },
+    {
+      "path": "schemas/control/execution_permit.schema.yaml",
+      "size": 279,
+      "sha256": "3a01419db922702c706883176adc57922ab6a3063c609aadd558453aad4a7db9"
+    },
+    {
+      "path": "schemas/control/receipt.schema.yaml",
+      "size": 370,
+      "sha256": "1624a033fae690a2c15ce5340c0bb20c15db057f181e2ec6b1bd047e3d53fa51"
+    },
+    {
+      "path": "schemas/control/resolution_request.schema.yaml",
+      "size": 184,
+      "sha256": "e3b3608b9ff2a4766fa0a988213fc69c8d66789dd867fea5aeb3d34ab86482ca"
+    },
+    {
+      "path": "schemas/control/state.schema.yaml",
+      "size": 464,
+      "sha256": "27c1b4216f0f78229d31ff82c36b762eb5ccc5da82f4aa08de266c9719689239"
+    },
+    {
+      "path": "schemas/control/workflow.schema.yaml",
+      "size": 1100,
+      "sha256": "5df3573548e6db26a5a2b94b1fd0f72056b397ed6525409d4f07ac0119cd43a7"
+    },
+    {
+      "path": "tests/control/run_tests.py",
+      "size": 625,
+      "sha256": "f7c7af5b6528381af63d56f34bfb601dce9de4af62162cdeef1b8053b6a83edf"
+    },
+    {
+      "path": "tests/control/test_schema_contracts.py",
+      "size": 1976,
+      "sha256": "f4b490152366e0b4c7cddf964bf36f681354503a303e9c5bb28fbc3bf2aa19a6"
+    },
+    {
+      "path": "tests/control/test_state_controller.py",
+      "size": 16887,
+      "sha256": "4de9ed27a41e8d180f0f2e171bf663d73eeee80711f5caaea153b40a478f515f"
+    }
+  ]
+}

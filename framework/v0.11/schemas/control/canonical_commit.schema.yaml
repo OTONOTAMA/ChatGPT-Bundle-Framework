@@ -1,0 +1,6 @@
+schema_id: FRAMEWORK_CANONICAL_COMMIT
+schema_version: 0.1
+type: object
+required: [commit_id, workflow_instance_id, schema_id, schema_version, resolved_payload, resolution_status, input_digest]
+enums:
+  resolution_status: [RESOLVED, PARTIALLY_RESOLVED, UNRESOLVED]

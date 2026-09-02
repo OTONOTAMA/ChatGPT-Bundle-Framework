@@ -1,0 +1,6 @@
+schema_id: FRAMEWORK_CONTROL_RECEIPT
+schema_version: 0.1
+type: object
+required: [receipt_id, workflow_instance_id, workflow_id, workflow_version, action_id, permit_id, canonical_commit_id, previous_state_id, previous_state_revision, result_state_id, input_digest, status, authority_before, authority_after, output_digest]
+enums:
+  status: [PASS, WARN, FAIL, UNRESOLVED]
